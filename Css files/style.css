@@ -1,0 +1,486 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 4rem;
+    justify-content: space-between;
+    align-items: center;
+    animation: nav 3s forwards;
+    transition: .5s;
+    box-shadow: 0px 0px 30px lightgray;
+}
+nav:hover{
+    padding: 1rem 3rem;
+}
+@keyframes nav{
+    from{
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    padding: 0 3rem;
+    transition: .5s;
+}
+.links{
+    text-decoration: none;
+    color: rgb(127, 127, 127);
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    transition: .5s;
+    padding: 5px 0;
+    
+    
+}
+.links:hover{
+    color: black;
+    text-shadow: 0px 0px 40px black;
+}
+
+ul li a img{
+    width: 30px;
+    height: 30px;
+}
+
+.logo{
+    display: flex;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+    transition: .5s;
+}
+.logo img:hover{
+    transform: scale(1.1);
+}
+header{
+    display: flex;
+    align-items: center;
+    padding: 2rem 4rem;
+    justify-content: space-evenly;
+    animation: header 3s forwards;
+    background-image: url(/imagees/pngwing.com\ \(2\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    transition: .5s;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.241);
+}
+header:hover{
+    padding: 2rem;
+}
+@keyframes header{
+    from{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+.contents{
+    width: 50%;
+}
+.contents h1{
+    font-size: 70px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+strong{
+    font-size: 90px;
+    color: rgb(0, 81, 255);
+}
+.contents p{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+
+
+}
+.style{
+    text-align: center;
+}
+.button{
+    padding: 2rem 0;
+}
+.btn{
+    padding: 1rem 3rem;
+    background-color: rgb(0, 81, 255);
+    border: .5px solid cornflowerblue;
+    transition: .5s;
+}
+.btn a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+
+.images{
+    display: flex;
+}
+.images img{
+    width: 400px;
+    transition: .5s;
+}
+.images img:hover{
+    transform: scale(1.1);
+}
+.active{
+    border-bottom: 1px solid black;
+}
+
+.section1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 8rem 4rem;
+    justify-content: center;
+    text-align: center;
+}
+.style h2{
+    font-size: 70px;
+    color: rgb(0, 81, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    padding: 8rem 5rem;
+}
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.section1-contents{
+    text-align: center;
+    margin: 0 2rem;
+    box-shadow: 0px 0px 10px 5px lightgray;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    transition: .5s;
+}
+.section1-contents:hover{
+    transform: scale(1.3);
+    
+}
+.section1-contents img{
+    width: 300px;
+    border-radius: 2px 2px 0 0;
+}
+.section1-contents h2{
+    padding: 5px 0;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    transition: .5s;
+}
+.section1-contents h2:hover{
+    transform: scale(1.05);
+}
+.section1-contents a{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-decoration: none;
+    transition: .5s;
+}
+.section1-contents a:hover{
+    color: rgb(0, 81, 255);
+}
+
+.section2{
+    padding: 6rem 4rem;
+    background-image: url(/imagees/pngegg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.places{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5rem 0;
+}
+.place-contents{
+    margin: 0 2rem;
+    background-image: url(/imagees/3941-09121906040691670.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    box-shadow: 0px 0px 12px lightgray;
+    border-radius: 10px 10px 0 0;
+    transition: .5s;
+}
+.place-contents:hover{
+    transform: scale(1.3);
+}
+.orient{
+    padding: 1rem 0;
+    background-color: white;
+    width: 100%;
+}
+.orient i{
+    padding: 5px;
+}
+.orient i img{
+    width: 20px;
+}
+.orient h2{
+    padding: 10px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.orient a{
+    text-decoration: none;
+    color: black;
+    transition: .5s;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: .5px solid lightgray;
+    padding: 5px 20px;
+}
+.orient a:hover{
+    color: rgb(0, 81, 255);
+    background-color: lightgray;
+}
+
+.home-page-parts{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    padding: 5rem 2rem;
+    margin: 0 5rem;
+    box-shadow: 0px 0px 20px lightgray;
+    transition: .5s;
+}
+.home-page-parts:hover{
+    padding: 1rem 1rem;
+}
+.part1{
+    background-image: url(/imagees/SnapHero\ T-Shirts.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 900px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 4rem 6rem;
+}
+.part1 h3{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: 600;
+    padding: 1rem 0;
+}
+.part1 p{
+    padding: 1rem 0;
+
+}
+.part1 p a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    transition: .5s;
+
+}
+.part1 p a:hover{
+    transform: scale(1.05);
+    color: yellow;
+}
+.part2{
+    background-image: url(/imagees/How\ Jordan\ Brand\'s\ All-Star\ Weekend\ Sneakers\ Are\ Standing\ Up\ for\ LGBT\ Equality.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 4rem 6rem;
+    align-items: flex-end;
+}
+.part2 h3{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: 600;
+    padding: 1rem 0;
+}
+.part2 p{
+    padding: 1rem 0;
+}
+.part2 p a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    transition: .5s;
+}
+.part2 p a:hover{
+    color: lightpink;
+}
+
+.most-selling{
+    padding: 5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.selling{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.items{
+    height: 350px;
+    margin: 4rem 2rem;
+    box-shadow: 0px 0px 10px lightgray;
+    transition: .5s;
+}
+.items:hover{
+    transform: scale(1.09);
+}
+.items img{
+    width: 300px;
+    height: 300px;
+}
+.item-contents{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px 20px;
+    align-items: center;
+    transition: .5s;
+}
+.item-contents h3{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: rgb(0, 81, 255);
+}
+.item-contents p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+}
+
+
+.subscribe{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5rem 2rem;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px solid gray;
+}
+.subscribe-contents{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    text-align: start;
+}
+.subscribe-contents p{
+    padding: 10px 0;
+    font-size: 13px;
+    column-rule-color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+.subscribe-contents h3{
+    font-size: 35px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    transition: .3s;
+}
+.subscribe-contents h3:hover{
+    text-shadow: 3px 3px 10px gray;
+}
+
+form input{
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    margin: 0 1rem;
+}
+.submit{
+    padding: .5rem 1.5rem;
+    background-color: rgb(0, 81, 255);
+    border: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    transition: .5s;
+}
+.submit:hover{
+    transform: scale(1.08);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+    background-color: lightgray;
+}
+footer h4{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+    transition: .4s;
+}
+footer h4:hover{
+    color: black;
+}
