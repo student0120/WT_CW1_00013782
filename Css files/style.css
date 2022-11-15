@@ -66,7 +66,7 @@ ul li a img{
 .logo img:hover{
     transform: scale(1.1);
 }
-header{
+#main-header{
     display: flex;
     align-items: center;
     padding: 2rem 4rem;
@@ -79,7 +79,7 @@ header{
     transition: .5s;
     border-bottom: 1px solid rgba(128, 128, 128, 0.241);
 }
-header:hover{
+#main-header:hover{
     padding: 2rem;
 }
 @keyframes header{
@@ -291,6 +291,7 @@ strong{
     justify-content: flex-start;
     flex-direction: column;
     padding: 4rem 6rem;
+    margin: 5px;
 }
 .part1 h3{
     font-size: 30px;
@@ -327,6 +328,7 @@ strong{
     flex-direction: column;
     padding: 4rem 6rem;
     align-items: flex-end;
+    margin: 5px;
 }
 .part2 h3{
     font-size: 30px;

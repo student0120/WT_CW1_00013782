@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#products-header{
+    text-align: center;
+    display: flex;
+    padding: 2rem 8rem;
+    justify-content: center;
+    flex-direction: row;
+    background-image: url(/imagees/wepik-photo-mode-20221015-114948.png);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 82vh;
+    background-color: rgba(0, 0, 0, 0.393);
+    background-blend-mode: darken;
+}
+.product-content{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 50px;
+    transition: .5s;
+}
+.product-content:hover{
+    backdrop-filter: blur(5px);
+}
+
+.product-content h3{
+    font-size: 80px;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.104);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    transition: .5s;
+    -webkit-text-stroke: 2px;
+}
+.product-content h3:hover{
+    transform: scale(1.1);
+    color: white;
+}
+.btn-product{
+    padding: 1rem 3rem;
+    background-color: rgba(0, 0, 0, 0.326);
+    transition: .5s;
+}
+.btn-product a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: fantasy;
+}
+.btn-product:hover{
+    transform: scale(1.1);
+}
