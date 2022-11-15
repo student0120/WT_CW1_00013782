@@ -13,6 +13,9 @@
     transition: .5s;
     background-color: rgba(0, 0, 0, 0.29);
     background-blend-mode: darken;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #about-header h2{
@@ -90,6 +93,17 @@ strong{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+    border: none;
+}
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
 }
 
 .picture2-contents{
