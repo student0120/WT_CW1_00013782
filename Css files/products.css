@@ -288,3 +288,86 @@
     justify-content: center;
 }
 
+#advertisement{
+    padding: 5rem 2rem 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.ad{
+    width: 100%;
+    height: 800px;
+    background-image: url(/imagees/noir.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.099);
+    background-blend-mode: darken;
+    padding-top: 10rem;
+}
+
+.ad h4{
+    font-size: 40px;
+    font-family: fantasy;
+    font-weight: 500;
+    color: black;
+    width: 800px;
+    transition: .3s;
+}
+.ad h4:hover{
+    transform: scale(1.1);
+}
+
+
+#perfume{
+    padding: 2rem 4rem 10rem 4rem;
+    display: flex;
+    justify-content: center;
+}
+.perfumes{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+.perfume-contents{
+    margin: 10px;
+    transition: .2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.perfume-contents:hover{
+    box-shadow: 0px 0px 2px 1px black;
+}
+.cost{
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cost h3{
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: 	rgba(145, 123, 0, 0.733);
+}
+.cost a{
+    text-decoration: none;
+    color: rgb(0, 68, 170);
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.perfume-contents img{
+    width: 300px;
+    height: 400px;
+}

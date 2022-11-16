@@ -4,16 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Css files/contact.css">
     <link rel="stylesheet" href="/Css files/style.css">
     <title>Document</title>
 </head>
 <body>
 
+    <div class="wrapper">
+        <div class="title-text">
+            <div class="title-login">Login Form
+            </div>
+
+            <div class="title-Signup">Signup Form
+            </div>
+
+        </div>
+
+        <div class="Form-container">
+            <div class="slide-controls">
+                <input type="radio" name="slide" id="Login" checked>
+                <input type="radio" name="slide" id="Signup">
+                <label for="Login" class="slide">Login</label>
+                <label for="Signup" class="slide Signup">Sign Up</label>
+                <div class="slide-tab"></div>
+            </div>
+        </div>
+
+        <div class="Form-inner">
+            <form action="#" class="Login">
+                <div class="field">
+                    <input type="text" name="" placeholder="Your E-mail address!" required >
+                </div>
+                <div class="field">
+                    <input type="password" name="" placeholder="Enter your password!" required >
+                </div>
+                <div class="passs-link">
+                    <a href="#">Forgot password?</a>
+                </div> 
+                <div class="field-btn">
+                    <div class="btn-layer"></div>
+                    <input type="submit" value="Login">
+                </div>
+                <div class="Signup-link">Not a member? <a href="#">Sign Up now</a></div>
+            </form>
+
+            <form action="#" class="Signup">
+                <div class="field">
+                    <input type="text" placeholder="Enter E-mail address" required>
+                </div>
+                <div class="field">
+                    <input type="password" placeholder="Create password">
+                </div>
+                <div class="field">
+                    <input type="password" placeholder="Confirm password" required>
+                </div>
+                <div class="field-btn">
+                    <div class="btn-layer"></div>
+                    <input type="submit" value="Signup">
+                </div>
+            </form>
+           
+        </div>
+
+
+    </div>
 
 
 
 
-    <section class="section2">
+
+    <!-- <section class="section2">
         <div class="style">
             <h2>Where you can finds US</h2>
         </div>
@@ -43,7 +103,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     
 </body>
 </html>
