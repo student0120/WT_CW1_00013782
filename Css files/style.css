@@ -4,12 +4,13 @@
     box-sizing: border-box;
 }
 nav{
+    background-color: white;
     display: flex;
     flex-direction: row;
     padding: 1rem 4rem;
     justify-content: space-between;
     align-items: center;
-    animation: nav 3s forwards;
+    animation: nav 1s forwards;
     transition: .5s;
     box-shadow: 0px 0px 30px lightgray;
 }
@@ -18,11 +19,12 @@ nav:hover{
 }
 @keyframes nav{
     from{
-        transform: translateY(-20px);
+        transform: translateY(-50px);
         opacity: 0;
     }
     to{
         transform: translateY(0);
+        opacity: 1;
     }
 }
 ul{
