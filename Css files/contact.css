@@ -112,12 +112,13 @@
     width: 400px;
     min-height: 80vh;
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 60px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
     display: flex;
     align-items: center;
     flex-direction: column;
     animation: forms 1s forwards;
+    transition: .5s;
 }
 .actionBtns{
     width: 80%;
