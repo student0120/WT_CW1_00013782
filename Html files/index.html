@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Css files/style.css">
     <script src="/JS files/main.js"></script>
+    <!-- <script src="/JS files/scrolling.js"></script> -->
     <title>UNO</title>
 </head>
 <body>
@@ -18,7 +19,7 @@
             <li><a class="links" href="/Html files/about.html">About</a></li>
             <li><a class="links" href="/Html files/products.html">Products</a></li>
             <li><a class="links" href="/Html files/contact.html">Log in</a></li>
-            <li><a class="link-icon" href=""><img src="/imagees/shopping-cart.png" alt=""></a></li>
+            <li><a onclick="shop()" class="link-icon" href=""><img src="/imagees/shopping-cart.png" alt=""></a></li>
         </ul>
     </nav>
 
@@ -164,7 +165,7 @@
         <div class="forms">
             <form action="">
                 <input type="text" name="" placeholder="Enter your E-mail address!">
-                <button class="submit">Submit</button>
+                <button class="submit" onclick="accepted()">Submit</button>
             </form>
         </div>
     </section>
@@ -172,6 +173,7 @@
 
 
 
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><a href="#"><img src="/imagees/up-arrow.png" alt=""></a></button>
     <footer>
         <h4>&copy; All right Reserved</h4>
     </footer>

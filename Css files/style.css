@@ -2,7 +2,36 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
+
+/* For Scrolling */
+
+#myBtn{
+    display: block;
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    z-index: 99;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: rgba(0, 81, 255, 0.236);
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 4px;
+    transition: .3s;
+    
+  }
+  #myBtn img{
+    width: 20px;
+  }
+  
+#myBtn:hover{
+    background-color: rgba(255, 255, 255, 0.07);
+    transform: scale(1.5);
+  }
 nav{
     background-color: white;
     display: flex;
@@ -73,7 +102,7 @@ ul li a img{
     align-items: center;
     padding: 2rem 4rem;
     justify-content: space-evenly;
-    animation: header 3s forwards;
+    animation: header 1s forwards;
     background-image: url(/imagees/pngwing.com\ \(2\).png);
     background-position: center;
     background-repeat: no-repeat;
@@ -86,11 +115,12 @@ ul li a img{
 }
 @keyframes header{
     from{
-        transform: translateX(-100px);
+        transform: translatey(-40px);
         opacity: 0;
     }
     to{
         transform: translateX(0);
+        opacity: 1;
     }
 }
 .contents{

@@ -1,5 +1,5 @@
 // Animation functions
-
+// This is fuunction to animate all objects from down to up while scrolling in order to make the website more dynamic
 function reveal() {
   var reveals = document.querySelectorAll(".reveal");
 
@@ -23,10 +23,10 @@ window.addEventListener("scroll", reveal);
 
 
 
+
+
 // Sign Up functions
-
-
-
+// selecting object by it class and ids
 const singupBtn = document.querySelector(".signupBtn");
 const loginBtn = document.querySelector(".loginBtn");
 const moveBtn = document.querySelector(".moveBtn");
@@ -46,6 +46,16 @@ singupBtn.addEventListener("click",()=>{
     singup.classList.add("singupForm");
     moveBtn.innerHTML = "Singup";
 })
+// Window alert function to navigate clients to main instagram profile
+function shop() {
+  window.alert("For more information, visit our Intagram and telegram channels.\n  \nHere is our Instagram, profile below:\n@uno.mens.wear");
+}
+// Accepted Windows alert after clicking Submit button
+function accepted() {
+  window.alert("Your E-mail has been accepted.\nThank you so much");
+}
+
+
 
 
 
