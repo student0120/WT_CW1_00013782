@@ -34,7 +34,8 @@
 }
 .contacts{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .elements{
     display: flex;

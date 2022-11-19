@@ -55,8 +55,21 @@ function accepted() {
   window.alert("Your E-mail has been accepted.\nThank you so much");
 }
 
+function order() {
+  window.alert("Your order has been successfully accepted");
+}
 
 
+
+
+function nav() {
+  document.getElementById('nav-bar').style.display = "flex";
+}
+
+
+function exit(){
+  document.getElementById("exit").style.display = "none"
+}
 
 
 

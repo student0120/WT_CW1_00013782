@@ -10,8 +10,8 @@
 #myBtn{
     display: block;
     position: fixed;
-    bottom: 80px;
-    right: 20px;
+    bottom: 50px;
+    left: 10px;
     z-index: 99;
     font-size: 20px;
     border: none;
@@ -36,15 +36,20 @@ nav{
     background-color: white;
     display: flex;
     flex-direction: row;
-    padding: 1rem 4rem;
+    padding: 1rem;
     justify-content: space-between;
     align-items: center;
     animation: nav 1s forwards;
     transition: .5s;
     box-shadow: 0px 0px 30px lightgray;
+    height: 100%;
 }
+.extra-nav{
+    display: none;
+}
+
 nav:hover{
-    padding: 1rem 3rem;
+    padding: 1rem 2rem;
 }
 @keyframes nav{
     from{
@@ -63,7 +68,7 @@ ul{
 }
 ul li{
     list-style: none;
-    padding: 0 3rem;
+    padding: 0 2rem;
     transition: .5s;
 }
 .links{
@@ -76,11 +81,11 @@ ul li{
     
     
 }
+
 .links:hover{
     color: black;
     text-shadow: 0px 0px 40px black;
 }
-
 ul li a img{
     width: 30px;
     height: 30px;
@@ -89,13 +94,25 @@ ul li a img{
 .logo{
     display: flex;
 }
+.h-logo{
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    padding: 0 1rem;
+}
+.logo a img{
+    display: none;
+}
 .logo img{
     width: 100px;
-    height: 100px;
+    height: 90px;
     transition: .5s;
 }
 .logo img:hover{
     transform: scale(1.1);
+}
+.exit{
+    display: none;
 }
 #main-header{
     display: flex;
@@ -123,9 +140,7 @@ ul li a img{
         opacity: 1;
     }
 }
-.contents{
-    width: 50%;
-}
+
 .contents h1{
     font-size: 70px;
     color: black;
@@ -530,3 +545,201 @@ footer h4{
 footer h4:hover{
     color: black;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1024px){
+    .section1{
+        padding: 1rem;
+    }
+    .main-content{
+        padding: 5px;
+    }
+    .section1-contents{
+        margin: 10px;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+    }
+    nav ul li{
+        padding: 2rem;
+    }
+    .logo a img{
+        display: none;
+    }
+    .h-logo{
+        display: none;
+    }
+    #navbar{
+        display: none;
+    }
+    .extra-nav{
+        display: block;
+    }
+
+    .contents{
+        text-align: center;
+    }
+
+    .images{
+        display: none;
+    }
+
+    .home-page-parts{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .part1{
+        width: 100%;
+    }
+    .part2{
+        width: 100%;
+    }
+
+    
+    
+}
+
+@media only screen and (max-width: 768px){
+    .selling{
+        flex-wrap: wrap;
+    }
+    .items{
+        margin: 10px;
+    }
+    .subscribe{
+        justify-content: center;
+    }
+    .forms{
+        padding: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 601px){
+    nav{
+        display: flex;
+        width: auto;
+        justify-content: center;
+        padding: 0;
+    }
+    .logo{
+        display: none;
+    }
+    #navbar{
+        display: none;
+    }
+    .extra-nav{
+        padding: 0 5px;
+        display: block;
+    }
+    .extra-nav ul li{
+        padding: 15px;
+    }
+    .extra-nav ul li a img{
+        width: 30px;
+        height: 30px;
+    }
+    #main-header{
+        padding: 5px;
+        background-size: cover;
+    }
+    .contents{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .style h2{
+        font-size: 30px;
+    }
+    .contents h1{
+        font-size: 30px;
+    }
+    .section1{
+        padding: 5px;
+    }
+    .style h2{
+        padding: 10px;
+    }
+    .section1-contents{
+        margin: 10px;
+    }
+    .section1-contents:hover{
+        transform: scale(1);
+    }
+    .home-page-parts{
+        padding: 2rem;
+        margin: 0;
+    }
+    .home-page-parts:hover{
+        padding: 2rem;
+    }
+    
+    .part1 h3{
+        padding: 0;
+        width: 100%;
+        font-size: 20px;
+    }
+    .part2 h3{
+        font-size: 20px;
+        padding: 0;
+    }
+
+
+
+
+    .forms{
+        padding: 10px;
+    }
+    .submit{
+        margin: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    nav{
+        width: 100%;
+    }
+    .style h2{
+        font-size: 30px;
+    }
+    .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .main-content{
+        padding: 1rem;
+        width: 100%;
+    }
+    .section1-contents img{
+        width: 100%;
+    }
+    .btn{
+        padding: 12px 8px;
+    }
+    #main-header{
+        padding: 5px;
+        background-size: cover;
+    }
+    .contents{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    
+}
+

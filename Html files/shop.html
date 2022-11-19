@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Css files/style.css">
+    <link rel="stylesheet" href="/Css files/shop.css">
+    <script src="/JS files/main.js"></script>
+    <title>UNO/Shop</title>
+</head>
+<body>
+ 
+    <nav>
+        <div class="logo">
+            <h1 class="h-logo">UNO</h1>
+        </div>
+        <div id="navbar">
+            <ul>
+                <li><a class="links" href="/Html files/index.html">Home</a></li>
+                <li><a class="links" href="/Html files/about.html">About</a></li>
+                <li><a class="links active" href="/Html files/products.html">Products</a></li>
+                <li><a class="links" href="/Html files/contact.html">Log in</a></li>
+                <li><a onclick="shop()" class="link-icon" href="/Html files/shop.html"><img src="/imagees/shopping-cart.png" alt=""></a></li>    
+            </ul>
+        </div>
+
+        <div class="extra-nav">
+            <ul>
+                <li><a class="links link-icon" href="/Html files/index.html"><img src="/imagees/home.png" alt="#"></a></li>
+                <li><a class="links link-icon" href="/Html files/about.html"><img src="/imagees/about.png" alt=""></a></li>
+                <li><a class="links link-icon" href="/Html files/products.html"><img src="/imagees/brand-identity.png" alt=""></a></li>
+                <li><a class="links link-icon" href="/Html files/contact.html"><img src="/imagees/enter.png" alt=""></a></li>
+                <li><a onclick="shop()" class="link-icon active" href="/Html files/shop.html"><img src="/imagees/shopping-cart.png" alt=""></a></li>    
+            </ul>
+        </div>
+    </nav>
+    <header id="shop-header">
+        <div class="pic-content reveal">
+            <img src="/imagees/shop-header.png" alt="">
+        </div>
+    </header>
+
+
+
+    <section id="shop-page">
+        <div class="container reveal">
+                <div class="all-contents reveal">
+                    <div class="left-content reveal">
+                        <div class="big-image reveal">
+                            <img src="/imagees/sneaker (1).webp" alt="">
+                        </div>
+                        <div class="small-image">
+                            <img src="/imagees/sneaker (2).webp" alt="">
+                            <img src="/imagees/sneaker (3).webp" alt="">
+                            <img src="/imagees/sneaker (4).webp" alt="">
+                        </div>
+                    </div>
+
+                    <div class="right-contents reveal">
+                        <div class="content-headings reveal">
+                            <h2>Best priced sneakers</h2>
+                        </div>
+                        <div class="p-content reveal">
+                            <p>from <strong>Nike</strong></p>
+                            <p>35$</p>
+                        </div>
+                        <div class="stars">
+                            <img src="/imagees/star.png" alt="">
+                            <img src="/imagees/star.png" alt="">
+                            <img src="/imagees/star.png" alt="">
+                            <img src="/imagees/star.png" alt="">
+                            <img src="/imagees/star (1).png" alt="">
+                        </div>
+
+                        <div class="buttons">
+                            <button class="btn" onclick="order()"><a href="#">Buy now</a></button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><a href="#"><img src="/imagees/up-arrow.png" alt=""></a></button>
+
+
+
+    <footer>
+        <h4>&copy; All right Reserved</h4>
+    </footer>
+    
+</body>
+</html>

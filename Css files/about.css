@@ -54,12 +54,11 @@ strong{
 }
 .picture{
     background-image: url(/imagees/2aabe888e5d3e7aac000ecb63ec007e4.jpg);
-    width: 500px;
-    height: 500px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     transition: .5s;
+    width: 70%;
 }
 .picture:hover{
     transform: scale(1.1);
@@ -94,6 +93,7 @@ strong{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 8rem 2rem;
 }
 .reveal{
     position: relative;
@@ -145,3 +145,80 @@ strong{
 .little{
     font-size: 40px;
 }
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1024px){
+    #main-about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .picture{
+        width: 100%;
+        background-size: 80%;
+    }
+    #main2-about{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    
+    .info{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 601px){
+    #about-header h2{
+        font-size: 40px;
+    }
+    #main-about{
+        width: 100%;
+    }
+    .picture-contents{
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .picture-contents p{
+        font-size: 17px
+    }
+    .picture2-contents{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: none;
+        width: 300px;
+        padding: 10px;
+        margin: 10px;
+    }
+    .picture2-contents p{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .picture2-contents{
+        width: auto;
+        text-align: center;
+        margin: 5px;
+    }
+    .picture-contents p{
+        font-size: 17px
+    }
+    .picture2-contents p{
+        font-size: 16px;
+    }
+}
+
+
+
