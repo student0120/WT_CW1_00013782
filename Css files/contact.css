@@ -219,7 +219,7 @@
 }
 
 .map-content{
-    width: 700px;
+    width: 100%;
     display: flex;
     justify-content: center;
     background-color: rgb(0, 81, 255);
@@ -235,3 +235,35 @@
 .map-element{
     border: 3px solid rgb(0, 81, 255);
 }
+
+
+
+@media only screen and (max-width: 768px){
+
+    .elements{
+        text-align: center;
+
+    }
+    #map{
+        display: flex;
+        flex-direction: column;
+    }
+    .map-content{
+        padding: 5rem 0;
+    }
+    .map-content h3{
+        font-size: 30px;
+    }
+    .map-element iframe{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 658px){
+    .modalForm{
+        margin: 0 1rem;
+    }
+}
+
+
+
+

@@ -178,6 +178,10 @@ strong{
     #about-header h2{
         font-size: 40px;
     }
+
+    #about-header h2:hover{
+        font-size: 40px;
+    }
     #main-about{
         width: 100%;
     }
@@ -204,6 +208,9 @@ strong{
     .picture2-contents p{
         font-size: 16px;
     }
+}
+.reveal{
+    transform: translateY(90px);
 }
 
 @media only screen and (max-width: 320px){
