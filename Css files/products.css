@@ -10,7 +10,7 @@
     padding: 2rem 8rem;
     justify-content: center;
     flex-direction: row;
-    background-image: url(/imagees/wepik-photo-mode-20221015-114948.png);
+    background-image: url(../imagees/wepik-photo-mode-20221015-114948.png);
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -121,7 +121,7 @@
 }
 
 .blog1{
-    background-image: url(/imagees/top\ selling\ \(1\).jpg);
+    background-image: url(../imagees/top\ selling\ \(1\).jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -140,7 +140,7 @@
     box-shadow: 0px 0px 10px blue;
 }
 .blog2{
-    background-image: url(/imagees/top\ selling\ \(2\).jpg);
+    background-image: url(../imagees/top\ selling\ \(2\).jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -159,7 +159,7 @@
     box-shadow: 0px 0px 10px blue;
 }
 .blog3{
-    background-image: url(/imagees/top\ selling\ \(3\).jpg);
+    background-image: url(../imagees/top\ selling\ \(3\).jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -177,7 +177,7 @@
     box-shadow: 0px 0px 10px blue;
 }
 .blog4{
-    background-image: url(/imagees/top\ selling\ \(7\).jpg);
+    background-image: url(../imagees/top\ selling\ \(7\).jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -195,7 +195,7 @@
     box-shadow: 0px 0px 10px blue;
 }
 .blog5{
-    background-image: url(/imagees/Affliction\ Mens\ Shirt\ Xl\ Brand\ Original\ With\ Tags\ Limited\ Edition.jpg);
+    background-image: url(../imagees/Affliction\ Mens\ Shirt\ Xl\ Brand\ Original\ With\ Tags\ Limited\ Edition.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -298,7 +298,7 @@
 .ad{
     width: 100%;
     height: 800px;
-    background-image: url(/imagees/noir.jpg);
+    background-image: url(../imagees/noir.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -375,6 +375,9 @@
 
 
 @media only screen and (max-width: 1024px){
+    #products-header{
+        padding: 2rem;
+    }
     #product3-section{
         display: flex;
         flex-direction: column;

@@ -89,7 +89,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(/imagees/sign-up.jpg);
+    background-image: url(../imagees/sign-up.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

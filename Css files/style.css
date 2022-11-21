@@ -120,7 +120,7 @@ ul li a img{
     padding: 2rem 4rem;
     justify-content: space-evenly;
     animation: header 1s forwards;
-    background-image: url(/imagees/pngwing.com\ \(2\).png);
+    background-image: url(../imagees/pngwing.com\ \(2\).png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 90%;
@@ -233,6 +233,7 @@ strong{
     height: 300px;
     border-radius: 5px;
     transition: .5s;
+    background-color: white;
 }
 .section1-contents:hover{
     transform: scale(1.3);
@@ -266,7 +267,7 @@ strong{
 
 .section2{
     padding: 6rem 4rem;
-    background-image: url(/imagees/pngegg.png);
+    background-image: url(../imagees/pngegg.png);
     background-position: center;
     background-repeat: no-repeat;
     
@@ -279,7 +280,7 @@ strong{
 }
 .place-contents{
     margin: 0 2rem;
-    background-image: url(/imagees/3941-09121906040691670.png);
+    background-image: url(../imagees/3941-09121906040691670.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -340,7 +341,7 @@ strong{
     padding: 1rem 1rem;
 }
 .part1{
-    background-image: url(/imagees/SnapHero\ T-Shirts.png);
+    background-image: url(../imagees/SnapHero\ T-Shirts.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -376,7 +377,7 @@ strong{
     color: yellow;
 }
 .part2{
-    background-image: url(/imagees/How\ Jordan\ Brand\'s\ All-Star\ Weekend\ Sneakers\ Are\ Standing\ Up\ for\ LGBT\ Equality.jpg);
+    background-image: url(../imagees/How\ Jordan\ Brand\'s\ All-Star\ Weekend\ Sneakers\ Are\ Standing\ Up\ for\ LGBT\ Equality.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -592,6 +593,10 @@ footer h4:hover{
     .contents{
         text-align: center;
     }
+    .section1-contents:hover{
+        transform: scale(1.05);
+        
+    }
 
     .images{
         display: none;
@@ -626,6 +631,7 @@ footer h4:hover{
     .forms{
         padding: 10px 0;
     }
+    
 }
 
 @media only screen and (max-width: 601px){
@@ -740,6 +746,7 @@ footer h4:hover{
         padding: 0;
         margin: 0;
     }
+    
     
 }
 

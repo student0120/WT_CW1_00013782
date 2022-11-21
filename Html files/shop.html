@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Css files/style.css">
-    <link rel="stylesheet" href="/Css files/shop.css">
-    <script src="/JS files/main.js"></script>
+    <link rel="stylesheet" href="../Css files/style.css">
+    <link rel="stylesheet" href="../Css files/shop.css">
+    <script src="../JS files/main.js"></script>
     <title>UNO/Shop</title>
 </head>
 <body>
+    
  
     <nav>
         <div class="logo">
@@ -17,27 +18,29 @@
         </div>
         <div id="navbar">
             <ul>
-                <li><a class="links" href="/Html files/index.html">Home</a></li>
-                <li><a class="links" href="/Html files/about.html">About</a></li>
-                <li><a class="links" href="/Html files/products.html">Products</a></li>
-                <li><a class="links" href="/Html files/contact.html">Log in</a></li>
-                <li><a onclick="shop()" class="link-icon active" href="/Html files/shop.html"><img src="/imagees/shopping-cart.png" alt=""></a></li>    
+                <li><a class="links" href="../Html files/index.html">Home</a></li>
+                <li><a class="links" href="../Html files/about.html">About</a></li>
+                <li><a class="links" href="../Html files/products.html">Products</a></li>
+                <li><a class="links" href="../Html files/blog.html">Blogs</a></li>
+                <li><a class="links" href="../Html files/contact.html">Log in</a></li>
+                <li><a onclick="shop()" class="link-icon active" href="../Html files/shop.html"><img src="../imagees/shopping-cart.png" alt=""></a></li>    
             </ul>
         </div>
 
         <div class="extra-nav">
             <ul>
-                <li><a class="links link-icon" href="/Html files/index.html"><img src="/imagees/home.png" alt="#"></a></li>
-                <li><a class="links link-icon" href="/Html files/about.html"><img src="/imagees/about.png" alt=""></a></li>
-                <li><a class="links link-icon" href="/Html files/products.html"><img src="/imagees/brand-identity.png" alt=""></a></li>
-                <li><a class="links link-icon" href="/Html files/contact.html"><img src="/imagees/enter.png" alt=""></a></li>
-                <li><a onclick="shop()" class="link-icon active" href="/Html files/shop.html"><img src="/imagees/shopping-cart.png" alt=""></a></li>    
+                <li><a class="links link-icon" href="../Html files/index.html"><img src="../imagees/home.png" alt="#"></a></li>
+                <li><a class="links link-icon" href="../Html files/about.html"><img src="../imagees/about.png" alt=""></a></li>
+                <li><a class="links link-icon" href="../Html files/products.html"><img src="../imagees/brand-identity.png" alt=""></a></li>
+                <li><a class="links link-icon" href="../Html files/blog.html"><img src="../imagees/technical-support.png" alt=""></a></li>
+                <li><a class="links link-icon" href="../Html files/contact.html"><img src="../imagees/enter.png" alt=""></a></li>
+                <li><a onclick="shop()" class="link-icon active" href="../Html files/shop.html"><img src="../imagees/shopping-cart.png" alt=""></a></li>    
             </ul>
         </div>
     </nav>
     <header id="shop-header">
         <div class="pic-content reveal">
-            <img src="/imagees/shop-header.png" alt="">
+            <img src="../imagees/shop-header.png" alt="">
         </div>
     </header>
 
@@ -48,12 +51,12 @@
                 <div class="all-contents reveal">
                     <div class="left-content reveal">
                         <div class="big-image reveal">
-                            <img src="/imagees/sneaker (1).webp" alt="">
+                            <img src="../imagees/sneaker (1).webp" id="mainpic" alt="">
                         </div>
                         <div class="small-image">
-                            <img src="/imagees/sneaker (2).webp" alt="">
-                            <img src="/imagees/sneaker (3).webp" alt="">
-                            <img src="/imagees/sneaker (4).webp" alt="">
+                            <img src="../imagees/sneaker (2).webp" class="smallpic" alt="">
+                            <img src="../imagees/sneaker (3).webp" class="smallpic" alt="">
+                            <img src="../imagees/sneaker (4).webp" class="smallpic" alt="">
                         </div>
                     </div>
 
@@ -66,11 +69,11 @@
                             <p>35$</p>
                         </div>
                         <div class="stars">
-                            <img src="/imagees/star.png" alt="">
-                            <img src="/imagees/star.png" alt="">
-                            <img src="/imagees/star.png" alt="">
-                            <img src="/imagees/star.png" alt="">
-                            <img src="/imagees/star (1).png" alt="">
+                            <img src="../imagees/star.png" alt="">
+                            <img src="../imagees/star.png" alt="">
+                            <img src="../imagees/star.png" alt="">
+                            <img src="../imagees/star.png" alt="">
+                            <img src="../imagees/star (1).png" alt="">
                         </div>
 
                         <div class="buttons">
@@ -81,13 +84,35 @@
         </div>
     </section>
 
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><a href="#"><img src="/imagees/up-arrow.png" alt=""></a></button>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><a href="#"><img src="../imagees/up-arrow.png" alt=""></a></button>
 
 
 
     <footer>
         <h4>&copy; All right Reserved</h4>
     </footer>
+
+
+
+        <!-- Changing certain image and swap function -->
+    <script>
+        const Mainpic = document.getElementById("mainpic");
+        const Smallpic = document.getElementsByClassName("smallpic");
+
+        Smallpic[0].onclick = function(){
+            Mainpic.src = Smallpic[0].src;
+        }
+        Smallpic[1].onclick = function(){
+            Mainpic.src = Smallpic[1].src;
+        }
+        Smallpic[2].onclick = function(){
+            Mainpic.src = Smallpic[2].src;
+        }
+        Smallpic[3].onclick = function(){
+            Mainpic.src = Smallpic[3].src;
+        }
+        
+    </script>
     
 </body>
 </html>

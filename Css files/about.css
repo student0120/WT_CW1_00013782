@@ -5,7 +5,7 @@
 }
 
 #about-header{
-    background-image: url(/imagees/bg-header.jpg);
+    background-image: url(../imagees/bg-header.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -53,7 +53,7 @@ strong{
     padding: 8rem 2rem;
 }
 .picture{
-    background-image: url(/imagees/2aabe888e5d3e7aac000ecb63ec007e4.jpg);
+    background-image: url(../imagees/2aabe888e5d3e7aac000ecb63ec007e4.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
