@@ -13,3 +13,8 @@ The product page contains additional sections and elements, such as photos and v
 
 I included validation routines in JavaScript so that every newly created profile could be preserved and users could use the website without having to sign up again. Additionally, an animation feature has been introduced to the website to make it more engaging for visitors.
 This website was developed using solely Java Script, HTML, and CSS, and every modification was committed.
+
+
+Reference list.
+
+Pinterest. (2018). Pinterest. Pinterest. Available from https://www.pinterest.com/.
