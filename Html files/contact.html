@@ -82,29 +82,29 @@
             <div class="userForm reveal">
                 <form action="" class="form singup singupForm">
                     <div class="inputGroup">
-                        <input type="text" placeholder="First name" autocomplete="offf">
+                        <input type="text" placeholder="First name" autocomplete="offf" required>
                     </div>
                     <div class="inputGroup">
-                        <input type="text" placeholder="Last name" autocomplete="offf">
+                        <input type="text" placeholder="Last name" autocomplete="offf" required>
                     </div>
                     <div class="inputGroup">
-                        <input type="email" placeholder="Email address" autocomplete="offf">
+                        <input type="email" placeholder="Email address" autocomplete="offf" required>
                     </div>
                     <div class="inputGroup">
-                        <input type="password" placeholder="Create new password" autocomplete="offf">
+                        <input type="password" placeholder="Create new password" id="password" autocomplete="offf">
                     </div>
                     <div class="inputGroup">
                         <input type="password" placeholder="Confirm password" autocomplete="offf">
                     </div>
-                    <button type="submit" class="submitBtn">Singup</button>
+                    <button type="submit" class="submitBtn" id="pswd" onclick="submission()">Singup</button>
                 </form>
 
-                <form action="" class="form login">
+                <form action="" class="form login" name="PasswordField">
                     <div class="inputGroup">
                         <input type="email" placeholder="Email address" autocomplete="offf">
                     </div> 
                     <div class="inputGroup">
-                        <input type="password" placeholder="Create new password" autocomplete="offf">
+                        <input type="password" placeholder="Enter password" autocomplete="offf" id="password" name="password">
                     </div>
                     <button type="submit" class="submitBtn">Login</button>
                 </form>

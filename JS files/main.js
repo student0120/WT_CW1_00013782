@@ -46,6 +46,16 @@ singupBtn.addEventListener("click",()=>{
     singup.classList.add("singupForm");
     moveBtn.innerHTML = "Singup";
 })
+
+
+ 
+
+
+
+
+
+
+
 // Window alert function to navigate clients to main instagram profile
 function shop() {
   window.alert("For more information, visit our Intagram and telegram channels.\n  \nHere is our Instagram, profile below:\n@uno.mens.wear");
@@ -57,6 +67,9 @@ function accepted() {
 
 function order() {
   window.alert("Your order has been successfully accepted");
+}
+function submission(){
+  window.alert("Your request has been accepted")
 }
 
 
@@ -70,6 +83,13 @@ function nav() {
 function exit(){
   document.getElementById("exit").style.display = "none"
 }
+
+
+
+
+
+
+
 
 
 

@@ -132,7 +132,7 @@ ul li a img{
 }
 @keyframes header{
     from{
-        transform: translatey(-40px);
+        transform: translatex   (-40px);
         opacity: 0;
     }
     to{
