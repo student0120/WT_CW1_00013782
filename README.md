@@ -1,6 +1,6 @@
 # WT_CW1_00013782
 
-Brief Summary of this projects
+Brief Summary of this project
 
 This project showcases the complete customization and concept design of an online clothes business. Websites are very crucial in markets that offer men's clothing. Because, in other words, the website assists companies in enjoying happy success with customers. In this instance, I go with the apparel business "UNO men's clothes". During my investigation, I discovered several stores had websites and Instagram accounts. In contrast to this statement, UNO had no website, which I considered badly harming their advertising and customer service because, as I indicated, the online structure of their general business could be the face of their improvement.
 
