@@ -316,7 +316,7 @@
         top: 70rem;
     }
     .modalForm{
-        width: 80%;
+        width: 100%;
     }
     .wrapper:hover{
         height: 200vh;
@@ -324,16 +324,23 @@
 }
 @media only screen and (max-width: 658px){
     .modalForm{
-        margin: 0 1rem;
+        margin: 0;
     }
     .userForm{
-        padding: 0 20px;
+        padding: 10px;
     }
     
 }
 @media (max-width: 320px){
+    .wrapper{
+        padding: 5px;
+    }
     .modalForm{
-        width: 80%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        height: 80%;
+        border-radius: 5px;
     }
     #contact-header{
         padding: 1rem;
