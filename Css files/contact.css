@@ -5,6 +5,7 @@
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
+    max-width: 100%;
 }
 
 
@@ -22,6 +23,8 @@
     transition: .3s;
     right: 20px;
     top: 250px;
+    background-color: white;
+    border: none;
   }
   #message:hover{
     transform: scale(1.1);
@@ -277,6 +280,11 @@
 
 
 @media only screen and (max-width: 768px){
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        height: 200vh;
+    }
 
     .elements{
         text-align: center;
@@ -295,10 +303,30 @@
     .map-element iframe{
         width: 100%;
     }
+    #message{
+        top: 70rem;
+    }
+    .modalForm{
+        width: 80%;
+    }
+    .inputGroup{
+        width: 200px;
+    }
 }
 @media only screen and (max-width: 658px){
     .modalForm{
         margin: 0 1rem;
+    }
+}
+@media (max-width: 320px){
+    .modalForm{
+        width: 80%;
+    }
+    .inputGroup{
+        width: 200px;
+    }
+    #contact-header{
+        padding: 1rem;
     }
 }
 

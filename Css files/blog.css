@@ -81,16 +81,20 @@
 @media only screen and (max-width:1024px){
 
     #blogs{
-        height: 200px;
-        padding: 10rem 1rem;
-        margin: 10px;
+        height: 150px;
+        margin: 5px;
+        padding: 1rem;
     }
     #blogs:hover{
         margin: 10px;
         padding: 10rem 1rem;
     }
+    #service{
+        padding: 1rem;
+    }
     .services{
         display: flex;
         flex-direction: column;
+        
     }
 }
