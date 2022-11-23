@@ -318,9 +318,7 @@
     .modalForm{
         width: 100%;
     }
-    .wrapper:hover{
-        height: 200vh;
-    }
+    
 }
 @media only screen and (max-width: 658px){
     .modalForm{
