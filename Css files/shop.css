@@ -190,6 +190,9 @@
         padding: 50px 15px;
         border-radius: 30px;
     }
+    .buttons{
+        text-align: center;
+    }
     .content-headings h2{
         font-size: 40px;
     }
