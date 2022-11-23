@@ -82,12 +82,12 @@
 
     #blogs{
         height: 150px;
-        margin: 5px;
+        margin: 2rem 0;
         padding: 1rem;
     }
     #blogs:hover{
-        margin: 10px;
-        padding: 10rem 1rem;
+        margin: 2rem 0;
+        padding: 1rem;
     }
     #service{
         padding: 1rem;
