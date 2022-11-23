@@ -18,3 +18,10 @@ This website was developed using solely Java Script, HTML, and CSS, and every mo
 Reference list.
 
 Pinterest. (2018). Pinterest. Pinterest. Available from https://www.pinterest.com/.
+
+Link to Deployed Website:
+https://unomenswearuz.netlify.app/
+
+
+link to GitHub:
+https://github.com/student0120/WT_CW1_00013782.git
