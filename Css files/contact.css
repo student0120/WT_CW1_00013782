@@ -161,7 +161,7 @@
 .modalForm{
     margin-top: 10rem;
     margin-bottom: 10rem;
-    width: 400px;
+    width: 300px;
     height: 100vh;
     background-color: #fff;
     border-radius: 60px;
@@ -290,9 +290,7 @@
 
 
 @media only screen and (max-width:1024px){
-    .wrapper{
-        height: 100%;
-    }
+    
 }
 @media only screen and (max-width: 768px){
     .elements{
@@ -316,16 +314,24 @@
         top: 70rem;
     }
     .modalForm{
-        width: 100%;
+        width: 80%;
     }
+    
     
 }
 @media only screen and (max-width: 658px){
-    .modalForm{
-        margin: 0;
+    .wrapper{
+        padding: 5px;
     }
-    .userForm{
-        padding: 10px;
+    .modalForm{
+        width: 100%;
+        padding: 0;
+        margin: 0 10px;
+        height: 80%;
+        border-radius: 5px;
+    }
+    #contact-header{
+        padding: 1rem;
     }
     
 }
